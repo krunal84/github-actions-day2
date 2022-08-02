@@ -8,7 +8,7 @@ inputs:
   message:
     description: 'Message to be posted in channel'
     reuired: true
- runs:
+runs:
   using: 'docker'
   image: 'Dockerfile'
   args:
